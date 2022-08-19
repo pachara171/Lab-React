@@ -40,6 +40,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(177, 249, 249);
 }
 .container {
   max-width: 900px;
@@ -53,21 +54,25 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 2em 1em;
   user-select: none;
+  background: rgb(237, 234, 234);
 }
 .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(26, 47, 237);
+  background: rgb(255, 106, 210);
 }
 .time-button {
-  color: #3f0436;
-  background: rgb(222, 149, 173);
+  color: #000415;
+  background: rgb(124, 232, 58);
   display: inline;
   margin: 21.5em;
   padding: 1rem;
   border-radius: 10px;
+  border: 2px solid black;
 }
 .box {
   margin-top: 10%;
+  border: 1px solid red;
+  padding: 10% 10px 50% 10px;
 }
 .App {
   width: 100vw;
