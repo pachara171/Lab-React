@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import WordCard from './WordCard';
 import './App.css';
+import CountdownTimer from './Components/CountdownTimer/CountdownTimer';
 function App() {
   const [view, setView] = useState("เริ่มนับเวลา")
 
@@ -13,9 +14,16 @@ function App() {
         }}>
           {view}
         </div>
+        
         {
           <WordCard value="hello"/>
         }
+        <div className='box-time'>
+          {
+            <CountdownTimer countdownTimestampMs={1643673600000}/>
+          }
+
+        </div>
         
       </div>
     </div>
