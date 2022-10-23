@@ -11,7 +11,7 @@ function App() {
     <div className='container'>
       <div className='box'>
         <div className='time-button' onClick={() =>{
-          setView("จับเวลาอิอิ")
+          setView("gibj,0y[g;]kvbvb")
         }}>
           {view}
         </div>
