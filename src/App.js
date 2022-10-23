@@ -11,7 +11,7 @@ function App() {
     <div className='container'>
       <div className='box'>
         <div className='time-button' onClick={() =>{
-          setView("เริ่มนับเวลา")
+          setView("จับเวลาอิอิ")
         }}>
           {view}
         </div>
